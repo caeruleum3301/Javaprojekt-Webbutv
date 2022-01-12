@@ -59,6 +59,24 @@ section ul li a img {
   width: 50vh;
 }
 
-#shoes {
+body section {
   margin-top: 10%;
+}
+
+section img {
+  animation: image_animation 2s;
+}
+
+section img:hover {
+  opacity: 0.5;
+}
+
+@keyframes image_animation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
