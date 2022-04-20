@@ -25,7 +25,7 @@ nav {
   display: flex;
   justify-content: left;
   margin-bottom: 5%;
-  position: sticky;
+  /* position: sticky; */
   top: 0;
 }
 
@@ -99,4 +99,13 @@ body section {
 .circle {
   display: flex;
   justify-content: center;
+}
+
+input{
+  border-radius: 0.7em;
+  /* font-weight: 10em; */
+  opacity: 0.5;
+}
+input:focus{
+  opacity: 1;
 }
