@@ -10,3 +10,12 @@ for (var i = 0; i < cartButton.length; i++) {
     output.insertAdjacentHTML("beforeend", event.path[2]);
   });
 }
+
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
