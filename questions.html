@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/test.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body class= "background">
+    <header>
+        <nav>
+          <ul>
+            <li>
+              <a href="test.html"><img src="images/deurell-logo.PNG" alt="deurell-logo" /></a>
+            </li>
+          </ul>
+        </nav>
+        <h1 id="top">DEURELL & PRIMUS.L</h1>
+      </header>
+    <h2>Heard you got problems. Tell us more about them!</h1>
+    <div class="container">
+      <form action="action_page.php">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+
+        <label for="where">Where?</label>
+        <select id="where" name="where">
+          <option value="EU">EU</option>
+          <option value="US">US</option>
+          <option value="Asia">Asia</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write something.."
+          style="height: 200px"
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    
+    <footer></footer>
+  </body>
+</html>
