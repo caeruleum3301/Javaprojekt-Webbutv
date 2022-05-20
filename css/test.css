@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap%27");
 
-
 h1 {
   font-weight: bolder;
   font-family: Helvetica;
@@ -103,36 +102,38 @@ body section {
   justify-content: center;
 }
 
-.questions{
+.questions {
   color: black;
 }
-.shopping-cart a{
+.shopping-cart a {
   position: fixed;
   right: 3em;
   color: black;
 }
 
-input{
+input {
   border-radius: 0.7em;
   opacity: 0.5;
 }
-input:focus{
+input:focus {
   opacity: 1;
 }
 
-input[type=text], select, textarea {
+input[type="text"],
+select,
+textarea {
   width: 100%;
-  padding: 12px; 
-  border: 1px solid #ccc; 
+  padding: 12px;
+  border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  margin-top: 6px; 
-  margin-bottom: 16px; 
-  resize: vertical 
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
-input[type=submit] {
-  background-color: #04AA6D;
+input[type="submit"] {
+  background-color: #04aa6d;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -140,7 +141,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #45a049;
 }
 
@@ -150,8 +151,47 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-.background{
+.background {
   background-size: cover;
   background-image: url("../images/white-background-4.png");
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
 
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.active {
+  background-color: white;
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  nav {
+    font-size: 1.3em;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
 }
